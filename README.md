@@ -14,5 +14,9 @@ HONEYBADGER_API_KEY=<Your API Key> QUEUE=* rake environment resque:work
 In another console:
 
 ```sh
+# Generates notification:
 HONEYBADGER_API_KEY=<Your API Key> rails runner 'Resque.enqueue FailWorker'
+
+# Doesn't generate notification:
+HONEYBADGER_API_KEY=<Your API Key> rails runner 'Resque.enqueue IgnoredWorker'
 ```
