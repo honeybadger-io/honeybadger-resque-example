@@ -1,16 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.15'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
 
-gem 'resque'
-gem 'honeybadger'
+gem 'honeybadger', '1.16.4'
+gem 'resque', '1.25.2'
 gem 'resque-honeybadger'
-
 
 
 
