@@ -1,3 +1,5 @@
+class IgnoredError < StandardError; end
+
 class IgnoredWorker
   @queue = :fail
 

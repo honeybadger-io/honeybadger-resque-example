@@ -1,0 +1,17 @@
+---
+debug: true
+report_data: true
+logging:
+  path: 'log/honeybadger.log'
+exceptions:
+  ignore:
+    - ActiveRecord::RecordNotFound
+    - ActionController::RoutingError
+    - ActionController::InvalidAuthenticityToken
+    - ActionController::UnknownAction
+    - ActionController::UnknownFormat
+    - AbstractController::ActionNotFound
+    - CGI::Session::CookieStore::TamperedWithCookie
+    - Mongoid::Errors::DocumentNotFound
+    - Sinatra::NotFound
+    - IgnoredError

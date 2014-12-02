@@ -7,11 +7,12 @@ gem 'rails', '3.2.15'
 
 
 
-gem 'resque'
-gem 'honeybadger'
-gem 'resque-honeybadger'
+gem 'resque', '~> 1.25'
+gem 'honeybadger', '~> 2.0.0.beta', github: 'honeybadger-io/honeybadger-ruby', branch: '2.0_resque'
+# gem 'resque-honeybadger'
 
 
+gem 'pry'
 
 
 # To use ActiveModel has_secure_password
