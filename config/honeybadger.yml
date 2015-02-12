@@ -1,0 +1,5 @@
+api_key: <%= ENV['HONEYBADGER_API_KEY'] %>
+report_data: true
+exceptions:
+  ignore:
+    - 'IgnoredError'
