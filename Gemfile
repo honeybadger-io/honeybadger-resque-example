@@ -9,7 +9,6 @@ gem 'rails', '3.2.15'
 
 gem 'resque'
 gem 'honeybadger'
-gem 'resque-honeybadger'
 
 
 
